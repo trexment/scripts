@@ -1,92 +1,83 @@
-**SCRIPTS NMAP**
-
+# SCRIPTS NMAP
 En esta carpeta se agregan scripts que por defecto no vienen en NMAP.
 
 
-**SCRIPTS POR DEFECTO**
-
+# SCRIPTS POR DEFECTO
 Clasificación de los scripts que vienen por defecto junto con NMAP
 
 
-**TECNOLOGÍAS**
+## TECNOLOGÍAS
 
-ASP.NET:
+### ASP.NET:
 http-aspnet-debug.nse
-PHP: 
+
+### PHP: 
 http-php-version.nse
 
 
+## SOFTWARE/PRODUCTOS
 
-
-**SOFTWARE/PRODUCTOS**
-
-AVAYA:
-
+### AVAYA:
 http-avaya-ipoffice-users.nse
 
 
-CITRIX:
-
+### CITRIX:
 citrix-brute-xml.nse
 citrix-enum-apps.nse
 citrix-enum-servers.nse
 
 
-JOOMLA: 
-
+### JOOMLA:
 http-joomla-brute.nse
-WORDPRESS:
+
+
+### WORDPRESS:
 http-wordpress-brute.nse
 http-wordpress-enum.nse
 http-wordpress-plugins.nse 
 
 
-**BASES DE DATOS**
+## BASES DE DATOS**
 
-CASSANDRA: 
-
+### CASSANDRA: 
 cassandra-brute.nse
 cassandra-info.nse
-COUCHDB:
+
+
+### COUCHDB:
 couchdb-databases.nse
 couchdb-stats.nse
 
 
-DB2:
-
+### DB2:
 broadcast-db2-discover.nse
 db2-das-info.nse
 drda-info.nse
 drda-brute.nse
 
 
-HBASE:
-
+### HBASE:
 hbase-master-info.nse
 hbase-region-info.nse
 
 
-INFORMIX:
-
+### INFORMIX:
 informix-brute.nse
 drda-info.nse
 drda-brute.nse
 
 
-MAXDB:
-
+### MAXDB:
 maxdb-info.nse
 
 
-MONGODB:
-
+### MONGODB:
 mongodb-brute.nse
 mongodb-databases.nse
 mongodb-info.nse
 
 
-MSSQL:
-
+### MSSQL:
 broadcast-ms-sql-discover.nse
 ms-sql-brute.nse
 ms-sql-config.nse
@@ -95,8 +86,7 @@ ms-sql-info.nse
 ms-sql-xp-cmdshell.nse
 
 
-MYSQL:
-
+### MYSQL:
 mysql-audit.nse
 mysql-brute.nse
 mysql-databases.nse
@@ -105,29 +95,25 @@ mysql-enum.nse
 mysql-info.nse
 
 
-ORACLE:
-
+### ORACLE:
 oracle-brute.nse
 oracle-enum-users.nse
 
 
-POSTGRESQL:
-
+### POSTGRESQL:
 pgsql-brute.nse
 
 
-REDIS:
-
+### REDIS:
 redis-brute.nse
 redis-info.nse
 
 
-RIAK:
+### RIAK:
 riak-http-info.nse
 
 
-
-**INFRAESTRUCTURAS INDUSTRIALES**
+## INFRAESTRUCTURAS INDUSTRIALES
 
 bacnet-info.nse
 enip-info.nse
@@ -140,17 +126,15 @@ s7-info.nse
 
 
 
-**SERVICIOS/PROTOCOLOS**
+## SERVICIOS/PROTOCOLOS
 
-DHCP:
-
+### DHCP:
 dhcp-discover.nse
 broadcast-dhcp-discover.nse
 broadcast-dhcp6-discover.nse
 
 
-DNS:
-
+### DNS:
 dns-brute.nse
 dns-cache-snoop.nse
 dns-check-zone.nse
@@ -161,15 +145,13 @@ dns-srv-enum.nse
 dns-zone-transfer.nse
 
 
-FTP:
-
+### FTP:
 ftp-anon.nse
 ftp-brute.nse
 ftp-bounce.nse
 
 
-HTTP:
-
+### HTTP:
 http-auth.nse
 http-auth-finder.nse
 http-backup-finder.nse
@@ -183,8 +165,7 @@ http-userdir-enum.nse
 http-vhosts.nse
 
 
-IMAP:
-
+### IMAP:
 imap-brute.nse
 imap-capabilities.nse
 imap-ntlm-info.nse 
@@ -193,27 +174,23 @@ ldap-brute.nse
 ldap-search.nse
 
 
-RDP:
-
+### RDP:
 rdp-enum-encryption.nse
 rdp-vuln-ms12-020.nse
 
 
-RLOGIN:
-
+### RLOGIN:
 rlogin-brute.nse
 
 
-SIP:
-
+### SIP:
 sip-brute.nse
 sip-call-spoof.nse
 sip-enum-users.nse
 sip-methods.nse
 
 
-SMB:
-
+### SMB:
 smb-brute.nse
 smb-enum-domains.nse
 smb-enum-groups.nse
@@ -233,24 +210,21 @@ smb-system-info.nse
 smbv2-enabled.nse
 
 
-SMTP:
-
+### SMTP:
 smtp-brute.nse
 smtp-commands.nse
 smtp-enum-users.nse
 smtp-open-relay.nse
 
 
-SNMP:
-
+### SNMP:
 snmp-info.nse
 snmp-interfaces.nse
 snmp-ios-config.nse
 snmp-netstat.nse
 
 
-SSL:
-
+### SSL:
 ssl-ccs-injection.nse
 ssl-cert.nse
 ssl-cert-intaddr.nse
@@ -264,37 +238,32 @@ sslv2.nse
 sslv2-drown.nse
 
 
-SVN:
-
+### SVN:
 svn-brute.nse
 http-svn-enum.nse
 http-svn-info.nse 
 
 
-TELNET:
-
+### TELNET:
 telnet-brute.nse
 
 
-TFTP:
-
+### TFTP:
 tftp-enum.nse
 
 
-UPNP:
-
+### UPNP:
 upnp-info.nse
 broadcast-upnp-info.nse
 
 
-VNC:
+### VNC:
 vnc-brute.nse
 vnc-info.nse
 
 
 
-**VULNERABILIDADES WEB**
-
+## VULNERABILIDADES WEB
 http-dombased-xss.nse   
 http-stored-xss.nse
 http-put.nse
@@ -314,8 +283,7 @@ http-xssed.nse
 
 
 
-**UTILES**
-
+## UTILES
 whois-domain.nse
 whois-ip.nse
 hostmap-ip2hosts.nse
