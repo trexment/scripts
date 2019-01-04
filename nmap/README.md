@@ -1,4 +1,5 @@
 **SCRIPTS NMAP**
+
 En esta carpeta se agregan scripts que por defecto no vienen en NMAP.
 
 
@@ -7,9 +8,9 @@ En esta carpeta se agregan scripts que por defecto no vienen en NMAP.
 Clasificación de los scripts que vienen por defecto junto con NMAP
 
 
-TECNOLOGÍAS
+**TECNOLOGÍAS**
 
-^ASP.NET:
+ASP.NET:
 http-aspnet-debug.nse
 PHP: 
 http-php-version.nse
@@ -17,7 +18,7 @@ http-php-version.nse
 
 
 
-**SOFTWARE/PRODUCTOS **
+**SOFTWARE/PRODUCTOS**
 
 AVAYA:
 
